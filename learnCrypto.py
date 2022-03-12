@@ -29,7 +29,7 @@ def deffie_hellman(message: bytes):
     print(f"Y_a = {Y_a}")
 
 
-        print("***Bob***")
+    print("***Bob***")
 
     xa = rand.randrange(2, p - 1) #private key
     print("xb", xb)
@@ -45,5 +45,6 @@ def deffie_hellman(message: bytes):
     print("sharedKeyAlice", shared_secret_Y_a)
     print("sharedKeyBob", shared_secret_Y_b)
 
-    
 
+
+deffie_hellman("Hello")
